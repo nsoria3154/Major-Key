@@ -1,0 +1,192 @@
+/*** sectioning elements ***/
+
+body {
+ background-image: url("../img/space.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ color: #fff;
+ padding: 10px;
+ margin: 25px;
+ font-family: 'Caveat Brush', cursive;
+ font-size: 33px
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #000000;
+}
+
+tr {
+
+}
+
+tr:nth-child(odd) {
+background-color: #c86ad8;
+}
+
+tr:nth-child(even) {
+background-color: #ffcd00  ;
+}
+
+th {
+  padding: 7px;
+}
+
+td {
+  padding: 7px;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+ color: #ffcd00;
+ font-family: 'Bangers', cursive;
+ font-size: 105px
+}
+
+h2 {
+ color: #c86ad8;
+font-family: 'Racing Sans One', cursive;
+font-size: 50px
+}
+
+h3 {
+ color: #c86ad8;
+font-family: 'Racing Sans One', cursive;
+font-size:50px
+}
+
+h4 {
+ color: #c86ad8;
+font-family: 'Racing Sans One', cursive;
+font-size: 50px
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+
+
+
+
+
+
+/*============================================================================
+ Odin component overrides
+ ===========================================================================*/
+
+ /* navbar */
+ .navbar {
+   background-color:#c86ad8
+ }
+
+ .navbar-brand {
+   color: #fff;
+  font-family: cursive;
+ }
+
+.navbar-menu a:link, a:visited{
+  color: #fff;
+  font-family: 'Walter Turncoat', cursive;
+  font-size: 25px
+}
+
+.navbar-menu a:hover, a:active{
+  border: 3px solid #fff;
+  text-decoration: none;
+  padding: 2px;
+}
